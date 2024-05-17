@@ -64,7 +64,7 @@ function AdminSignin(props) {
               onSubmit={hanleSubmit}
             >
               <div className="flex items-center justify-center underline">
-                <h1 className="ml-1 text-xl font-bold mb-5">ADMIN SIGNIN</h1>
+                <h1 className="ml-1 text-xl font-bold mb-5">ADMIN SIGNUP</h1>
               </div>
               <div className="mb-6">
                 <label
