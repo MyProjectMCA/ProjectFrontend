@@ -38,7 +38,7 @@ function AdminNavbar(props) {
 
                     {!localStorage.getItem("Admintoken") ? <div>
                         <Link to="/adminlogin" className="font-bold text-blue-500 underline hover:text-white mr-4">Login</Link>
-                        <Link to="/adminsignin" className="font-bold text-blue-500 underline hover:text-white">Signin</Link>
+                        <Link to="/adminsignin" className="font-bold text-blue-500 underline hover:text-white">SignUp</Link>
                     </div> : <button onClick={handleLogout} className="font-bold text-blue-500 underline hover:text-white">LogOut</button>}
                 </div>
                 <div className="md:hidden">
