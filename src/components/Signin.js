@@ -75,7 +75,7 @@ function Signin(props) {
           <div className="w-full">
             <form className="rounded-xl py-2 px-5 m-2" onSubmit={hanleSubmit}>
               <div className="flex items-center justify-center underline">
-                <h1 className="text-2xl font-bold">SIGN IN</h1>
+                <h1 className="text-2xl font-bold">SIGN UP</h1>
               </div>
               <div className="mb-6">
                 <label
