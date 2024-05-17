@@ -31,7 +31,7 @@ function AdminNavbar(props) {
                 <div className="px-2 mx-3 font-bold text-white border-4 border-white border-double cursor-pointer" onClick={() => { toggleNavbar(); navigateOnSwitch() }}>AdminHotelEase</div>
                 <div className="hidden space-x-4 md:flex">
                     <Link to="/adminHome" className={`font-bold  hover:text-white ${location.pathname === "/adminHome" ? "text-white" : "text-gray-400"}`}>Home</Link>
-                    <Link to="/orders" className={`font-bold  hover:text-white ${location.pathname === "/orders" ? "text-white" : "text-gray-400"}`}>Ordres</Link>
+                    <Link to="/orders" className={`font-bold  hover:text-white ${location.pathname === "/orders" ? "text-white" : "text-gray-400"}`}>Orders</Link>
                     <Link to="/inventory" className={`font-bold  hover:text-white ${location.pathname === "/inventory" ? "text-white" : "text-gray-400"}`}>Inventory</Link>
                     <Link to="/adminfeedback" className={`font-bold  hover:text-white ${location.pathname === "/adminfeedback" ? "text-white" : "text-gray-400"}`}>Feedbacks</Link>
                     <Link to="/adminContactus" className={`font-bold  hover:text-white ${location.pathname === "/adminContactus" ? "text-white" : "text-gray-400"}`}>ContactRequests</Link>
