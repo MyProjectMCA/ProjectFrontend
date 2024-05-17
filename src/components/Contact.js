@@ -66,6 +66,7 @@ function Contact() {
                             <div className=''>
                                 <label htmlFor="name" className="block mb-1 font-semibold">Name</label>
                                 <input
+                                    minLength={3}
                                     type="text"
                                     id="name"
                                     name="myname"
