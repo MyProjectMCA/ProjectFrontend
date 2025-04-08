@@ -36,6 +36,10 @@ function AdminLogin(props) {
     }
   };
 
+  const handleGuest = async (e) =>{
+    setCredentials({ email: "qwer@gmail.com", password: "@Qwer1234" })
+  }
+  
   const onchange = (e) => {
     setCredentials({ ...credentials, [e.target.name]: e.target.value });
   };
@@ -102,6 +106,9 @@ function AdminLogin(props) {
                 className="text-white bg-blue-600 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center ml-1"
               >
                 Submit
+              </button>
+              <button onClick={handleGuest} className="text-white bg-blue-600 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center ml-1">
+                Guest
               </button>
             </form>
           </div>
